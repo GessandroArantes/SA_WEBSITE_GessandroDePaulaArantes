@@ -1,2 +1,1 @@
-# SA_WEBSITE_GessandroArantes# SA_WEBSITE_GessandroArantes
 # SA_WEBSITE_GessandroArantes
