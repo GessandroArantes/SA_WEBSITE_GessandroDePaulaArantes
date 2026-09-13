@@ -1,0 +1,152 @@
+S.A. 02 – Website Institucional - PART II
+Tema: CSS, Layout Responsivo e Formulários
+Contexto
+Na atividade anterior você desenvolveu a estrutura base do website
+institucional utilizando HTML.
+Após analisar o protótipo inicial, a empresa solicitou melhorias para tornar o
+site mais profissional, organizado e visualmente atraente.
+A nova versão do site deverá:
+ possuir identidade visual
+ apresentar layout organizado
+ utilizar tipografia moderna
+ conter um formulário de contato
+O objetivo desta etapa é transformar o protótipo estrutural em uma primeira
+versão visual funcional do website.
+Você deverá continuar utilizando o mesmo projeto desenvolvido na SA01,
+evoluindo-o com CSS e novos componentes.
+Para auxiliar no desenvolvimento, foram disponibilizados protótipos de média
+fidelidade que podem ser utilizados como referência visual (não obrigatórios).
+
+Comando da Atividade
+Evoluir o website desenvolvido na SA01, aplicando estilização completa com
+CSS e implementando layout moderno e organizado, utilizando todos os
+conceitos trabalhados em sala.
+
+Estrutura do Projeto (continuação da SA01)
+O projeto deverá conter agora quatro páginas:
+/nome-do-projeto
+    index.html
+     pagina2.html
+     pagina3.html
+     contato.html
+/css
+     style.css
+
+/img
+
+Implementações Obrigatórias
+1. CSS 
+O projeto deve demonstrar os três tipos de CSS:
+CSS Inline
+Aplicar em pelo menos um elemento específico.
+CSS Interno
+Utilizar dentro da tag &lt;style&gt; em uma das páginas.
+CSS Externo
+Criar arquivo:
+/css/style.css
+Este será o principal arquivo de estilos do projeto.
+
+2. Seletores CSS
+O projeto deve utilizar obrigatoriamente:
+Seletor por Tag
+Exemplo: p, h1, table
+Seletor por ID
+Aplicar para elementos únicos.
+Exemplo: #menu, #rodape
+Seletor por Classe
+Aplicar para elementos reutilizáveis.
+Exemplo: .card, .container, .botao
+
+3. Tipografia e Ícones
+Google Fonts
+ Aplicar no site inteiro
+ Diferenciar título e texto
+Ícones (obrigatório usar pelo menos um dos
+dois):
+ Google Icons OU
+ Font Awesome
+Aplicar em:
+ menu
+ contato
+ footer
+
+4. Layout com Flexbox
+Utilizar Flexbox para organizar:
+ menu de navegação
+ cards ou elementos em linha
+Propriedades esperadas:
+display: flex
+justify-content
+align-items
+gap
+
+5. Layout com Grid
+Utilizar Grid para estruturar pelo menos uma seção da página.
+Sugestões:
+ galeria de imagens
+ cards de serviços
+ programação do evento
+Propriedades esperadas:
+
+display: grid
+grid-template-columns
+gap
+
+6. Position
+Utilizar pelo menos uma das propriedades de position:
+position: relative
+position: absolute
+position: fixed
+position: sticky
+Exemplo sugerido:
+ botão fixo de contato
+ menu fixo no topo
+ elemento sobreposto em imagem
+
+7. Página de Serviços
+Deve conter:
+ tabela com no mínimo 3 serviços
+ colunas:
+o nome
+o descrição
+o duração
+o valor
+8. Formulário de Contato
+Criar a página:
+contato.html
+O formulário deve conter:
+ Nome
+ Email
+ Telefone
+ Assunto
+ Mensagem
+
+ Botão de envio
+Utilizar:
+&lt;form&gt;
+&lt;input&gt;
+&lt;textarea&gt;
+&lt;label&gt;
+&lt;button&gt;
+9. Página de Cases
+Deve conter:
+ no mínimo 3 cards
+ cada card deve conter:
+o imagem
+o título
+o descrição
+10. Navegação
+ Menu presente em todas as páginas
+ Links funcionando corretamente
+ 
+
+ENTREGA (Obrigatória)
+Você deverá enviar:
+Link do repositório público no GitHub contendo o projeto completo.
+O repositório deverá:
+ Estar público
+ Conter todas as páginas
+ Conter pasta /css
+ Conter pasta /img
+ Estar organizado corretamente
+Protótipos de Referência (Opcional)
